@@ -1,8 +1,8 @@
 import storeRetrieve from './storeRetrieve.js';
 
-const todoList = document.getElementById('todoList');
-
 export default function addtask(task) {
+  const todoList = document.getElementById('todoList');
+
   todoList.innerHTML += `
     <div class="todoFlex">
       <div class="todoDiv">

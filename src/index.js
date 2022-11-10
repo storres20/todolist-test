@@ -2,7 +2,7 @@ import './style.css';
 import './imgs/bg1.png';
 import Task from '../modules/ntask.js';
 import addtask from '../modules/addtask.js';
-import removetask from '../modules/removetask.js';
+import clearAll from '../modules/clearAll.js';
 import edittask from '../modules/edittask.js';
 import completed from '../modules/completed.js';
 
@@ -53,18 +53,7 @@ enter.addEventListener('click', () => {
 });
 
 // clear all completed button
-const clearAll = document.querySelector('.clearAll');
-
-clearAll.addEventListener('click', () => {
-  const checkbox = document.querySelectorAll('.checkbox:nth-child(1)');
-
-  checkbox.forEach((item) => {
-    if (item.checked === true) {
-      removetask(item.name); // remove task
-      item.parentElement.parentElement.remove();
-    }
-  });
-});
+clearAll();
 
 // edit task
 edittask();
