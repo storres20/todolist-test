@@ -22,6 +22,7 @@ To get a local copy up and running follow these simple example steps.
 - write: git clone https://github.com/storres20/TODOlistproject.git
 - get into to directory "TODOlistproject"
 - write: npm install
+- write: npm test in git bash to check the modules.
 
 ## Authors
 
