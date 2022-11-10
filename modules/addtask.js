@@ -1,4 +1,3 @@
-import { node } from 'webpack';
 import storeRetrieve from './storeRetrieve.js';
 
 export default function addtask(task) {
@@ -17,5 +16,3 @@ export default function addtask(task) {
   /* store and retrieve tasks in LocalStorage */
   storeRetrieve(task);
 }
-
-module.exports = addtask;
