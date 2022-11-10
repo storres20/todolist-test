@@ -1,6 +1,6 @@
-const todoList = document.getElementById('todoList');
-
 module.exports = function completed() {
+  const todoList = document.getElementById('todoList');
+  const arr = [];
   todoList.addEventListener('click', (e) => {
     if (e.target.classList.contains('checkbox')) {
       /* add line trough when checkbox checked */
@@ -13,10 +13,14 @@ module.exports = function completed() {
       getCompleted.forEach((item) => {
         if (item.id === idedit) {
           item.completed = !item.completed;
+        } else {
+          arr.push(item.completed);
         }
       });
 
       localStorage.setItem('tasks', JSON.stringify(getCompleted));
+    } else {
+      arr.push(false);
     }
   });
 };
