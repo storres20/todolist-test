@@ -2,11 +2,11 @@
 
 # Project Name
 
-> This is the TODO LIST project for Module 2
+> This is the TODO LIST testing project for Module 2
 
 ## Built With
 
-- HTML, CSS, javascript, Linters and webpack
+- HTML, CSS, javascript, jest testing, Linters and webpack
 - Git, Github and Visual Studio Code
 
 ## Live Demo (if available)
@@ -19,8 +19,8 @@ To get a local copy up and running follow these simple example steps.
 
 - Choose a directory
 - Open a Terminal
-- write: git clone https://github.com/storres20/TODOlistproject.git
-- get into to directory "TODOlistproject"
+- write: git clone https://github.com/storres20/todolist-test.git
+- get into to directory "todolist-test"
 - write: npm install
 
 ## Authors
@@ -36,7 +36,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/storres20/TODOlistproject/issues).
+Feel free to check the [issues page](https://github.com/storres20/todolist-test/issues).
 
 ## Show your support
 
