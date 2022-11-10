@@ -1,8 +1,9 @@
+import { node } from 'webpack';
 import storeRetrieve from './storeRetrieve.js';
 
-const todoList = document.getElementById('todoList');
-
 export default function addtask(task) {
+  const todoList = document.getElementById('todoList');
+
   todoList.innerHTML += `
     <div class="todoFlex">
       <div class="todoDiv">
@@ -16,3 +17,5 @@ export default function addtask(task) {
   /* store and retrieve tasks in LocalStorage */
   storeRetrieve(task);
 }
+
+module.exports = addtask;
