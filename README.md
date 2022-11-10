@@ -31,6 +31,12 @@ To get a local copy up and running follow these simple example steps.
 - Twitter: [@italolonkan](https://twitter.com/italolonkan)
 - LinkedIn: [italo](https://www.linkedin.com/in/italo-lon-kan/)
 
+👤 **BOKU**
+
+- GitHub: [@Boku52500](https://github.com/Boku52500)
+
+- Linkedin: [Giorgi Bokuchava](https://www.linkedin.com/in/giorgi-bokuchava-430252240/)
+
 
 ## 🤝 Contributing
 
