@@ -1,6 +1,5 @@
-const todoList = document.getElementById('todoList');
-
-module.exports = function edittask() {
+export default function edittask() {
+  const todoList = document.getElementById('todoList');
   todoList.addEventListener('change', (e) => {
     const etask = e.target;
 
@@ -9,7 +8,6 @@ module.exports = function edittask() {
       const idedit = etask.attributes.name.value; // id
 
       const getedit = JSON.parse(localStorage.getItem('tasks'));
-
       getedit.forEach((item) => {
         if (item.id === idedit) {
           item.description = newValue;
@@ -19,4 +17,4 @@ module.exports = function edittask() {
       localStorage.setItem('tasks', JSON.stringify(getedit));
     }
   });
-};
+}
